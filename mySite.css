@@ -1,0 +1,171 @@
+@import "default.css";
+/* DO NOT MODIFY THE @import STATEMENT ABOVE */
+
+/* You will use this CSS file for each of your projects. Simply add new CSS classes and elements to the end of the file. */
+
+/* Be careful to keep your selector names unique to avoid collisions, which can cause confusion. */
+
+
+/* css for index.html file project1 */
+
+#h1proj1About { color: rgb(0,0,255); }
+
+#h2proj1Hobbies { color: rgb(255,0,0); }
+
+#h3proj1Edu { color: rgb(0,180,0); }
+
+#ul1proj1 { font-style:italic; }
+
+#ul2proj1 { font-weight:bold; }
+
+a.link1proj1:hover { font-size:150%; }
+
+a.link2proj1:hover { font-size:150%; }
+
+a.link3proj1:hover { font-size:150%; }
+
+
+/* css for schedule.html file project1 */
+
+.tr1proj1 { text-align:center; color:red; background-color:yellow; }
+
+.tr2proj1 { text-align:center; color:blue; background-color:lightgrey; }
+
+.tr3proj1 { text-align:center; color:blue; }
+
+
+/* css for account.html file project1 */
+
+div.labelsproj1 { margin-right:650px; text-align:right; }
+
+div.labels1proj1 { margin-right:692px; text-align:right; }
+
+
+/* radio buttons */
+div.radioproj1 {
+	display: block;
+	position: relative;
+	padding-left: 35px;
+	margin-bottom: 12px;
+	cursor: pointer;
+	font-size: 16pt;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+div.radioproj1 [type="radio"]:after {
+        width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: lightgrey;
+        content: "" ;
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid white;
+}
+
+div.radioproj1 [type="radio"]:checked:after {
+	width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: green;
+        content: "" ;
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid grey;
+}
+
+
+/* checkboxes */
+div.checkproj1 {
+        display: block;
+        position: relative;
+        padding-left: 35px;
+        margin-bottom: 12px;
+        cursor: pointer;
+        font-size: 16pt;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+}
+
+div.checkproj1 [type="checkbox"]:after {
+        width: 15px;
+        height: 15px;
+        border-diameter: 15px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: lightgrey;
+        content: "" ;
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid white;
+}
+
+div.checkproj1 [type="checkbox"]:checked:after {
+        width: 15px;
+        height: 15px;
+        border-diamter: 15px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: blue;
+        content: "" ;
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid grey;
+}
+
+
+/* Project 2 index.html CSS */
+
+#h1proj2Payment { color: rgb(0,200,0); }
+#h2proj2Links { color: rgb(255,0,0); }
+#bottomPageProj2 { position: absolute; text-align: left; bottom: 0; left: 20px; }
+
+div.labelsproj2 { margin-right:670px; text-align:right; }
+div.labels1proj2 { margin-right:676px; text-align:right; }
+div.labels2proj2 { margin-right:680px; text-align:right; }
+
+
+
+
+/* Project 3 index.html CSS */
+
+#h1proj3Statistical { color: rgb(255,0,0); }
+
+div.labelsproj3 { margin-right: 760px; text-align:right; }
+div.buttonsproj3 { margin-left: 220px; }
+
+
+
+/* Project 4 CSS */
+
+div.labelsproj4 { margin-right: 710px; text-align:right; }
+div.buttonsproj4 { margin-left: 117px; }
+
+div.eportfolio4 {
+	position: absolute; 
+	text-align: left; 
+	bottom: 15px; 
+	left: 20px;
+}
+
+
+
+
+
+
+
+
+
